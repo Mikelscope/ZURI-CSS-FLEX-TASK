@@ -53,11 +53,7 @@
 #flex-1 h4 {
   margin: 20px 0;
 }
-#flex-1 h1,
-#flex-1 p,
-#flex-1 h4 {
-  width: 100%;
-}
+
 #flex-2 h1,
 #flex-2 #logo,
 #flex-2 p,
@@ -134,14 +130,40 @@ h1{
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
   }
-  logo{
-    width: 205px;
+  #logo{
+    width: 40px;
+    padding-top: -80px;
+    margin: 0px;
+
   }
+  #flex-1 h1,
+#flex-1 #logo,
+#flex-1 p,
+#flex-1 h4 {
+  margin: 10px 0;
+}
+
+#flex-2 h1,
+#flex-2 #logo,
+#flex-2 p,
+#flex-2 h4 {
+  margin: 10px 0;
+}
+#flex-3 h1,
+#flex-3 #logo,
+#flex-3 p,
+#flex-3 h4 {
+  margin: 10px 0;
+}
+
   p{
     font-size: 1em;
   }
   h1{
     font-size: 3em;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+  
   }
   
 }
